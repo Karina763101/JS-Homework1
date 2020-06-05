@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+button{
+    margin-right: 10px;
+}
+
+.btn1{
+    background-color: #B0E0E6;
+}
+
+.press{
+    box-shadow: 5px 5px 5px #000;
+}
+
+#btn3{
+    z-index: 101;
+}
+
+.content{
+    display: none;
+}
+
+.flex{
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: stretch;
+}
+
+.flex div{
+    text-align: center;
+    width: 33.33%;
+}
+
+.flex div:first-child{
+    background-color: blue;
+}
+
+.flex div:nth-child(2){
+    background-color: white;
+}
+
+.flex div:last-child{
+    background-color: red;
+}
